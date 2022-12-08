@@ -46,5 +46,18 @@ const question_14 = await connection.query("SELECT * FROM produtos ORDER BY prec
 
 const question_15 = await connection.query("SELECT * FROM produtos ORDER BY preco DESC OFFSET 1 LIMIT 1")
 
-
 console.log(question_1)
+console.log(question_2)
+console.log(question_3)
+console.log(question_4)
+console.log(question_5)
+console.log(question_6)
+console.log(question_7)
+console.log(question_8)
+console.log(question_9)
+console.log(question_10)
+console.log(question_11)
+console.log(question_12)
+console.log(question_13)
+console.log(question_14)
+console.log(question_15)
